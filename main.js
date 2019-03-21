@@ -16,7 +16,7 @@ var company = getInputVal('company');
 var email = getInputVal('email');
 var phone = getInputVal('phone');
 var message = getInputVal('message'); 
-saveMessages(name,company,email,phone,message);
+saveMessages(name,email,company,phone,message);
 document.querySelector('.alert').style.display='block';
 setTimeout(function(){
   document.querySelector('.alert').style.display='none';
